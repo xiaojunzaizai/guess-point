@@ -107,8 +107,8 @@ def game():
                 choose_point = [new_x,new_y]
                 distance = get_distance(target,choose_point)
                 font_surface = gamefont.render(str(distance),True,bluecolor)
-                print(x)
-                print(y)
+                # print(x)
+                # print(y)
                 screen.blit(font_surface,(show_w_x,show_w_y))
                 if distance == 0:
                     gameover()
